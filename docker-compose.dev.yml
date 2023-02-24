@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   dev:
-    container_name: mstaff-micro__front-symfo-1
+    container_name: mstaff-micro__front-symfo-1__dev__symfo
     build: docker/dev
     working_dir: /application
     ports:
